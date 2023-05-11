@@ -1,0 +1,13 @@
+/***********Font Families mixins***********/
+@mixin bsdb {
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+@mixin outfit {
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+@mixin f-size-l-height($size, $height) {
+	font-size: $size;
+	line-height: $height;
+}
