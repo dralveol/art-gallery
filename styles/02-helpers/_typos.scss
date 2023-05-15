@@ -16,3 +16,13 @@
 	@include bsdb;
 	@include f-size-l-height(2rem, 2rem);
 }
+
+.bodyM {
+	@include outfit;
+	@include f-size-l-height(1.22rem, 1.77rem);
+}
+
+.bodyS {
+	@include outfit;
+	@include f-size-l-height(1rem, 1.55rem);
+}
