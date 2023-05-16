@@ -1,0 +1,79 @@
+.button-right {
+  width: 260px;
+  display: flex;
+  font-size : 0;
+  justify-content: start;
+  background-image: linear-gradient(90deg,
+  $AlmostBlack 0%,
+  $AlmostBlack 40%,
+  $Gold 40%,
+  $Gold 90%,
+  $AlmostBlack 90%,
+  $AlmostBlack 100%);
+  background-size:200%;
+  transition: background-position .3s linear;
+}
+.button-right:hover {
+  background-position:-100%;
+}
+.button-right:hover .button-right__arrow-wrapper {
+  color: white;
+}
+.button-right:hover .button-right__text-wrapper {
+  color: $AlmostBlack;
+}
+.button-right__text-wrapper {
+  width: 78%;
+  color: white;
+  text-align:center;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.button-right__arrow-wrapper {
+  text-align: center;
+  padding: 1rem;
+  width: 22%;
+  font-size: 1.5rem;
+}
+
+.button-left {
+  width: 260px;
+  display: flex;
+  font-size : 0;
+  justify-content: start;
+  background-image: linear-gradient(90deg,
+  $Gold 0%,
+  $Gold 15%,
+  $AlmostBlack 15%,
+  $AlmostBlack 65%,
+  $Gold 65%,
+  $Gold 100%);
+  background-size:200%;
+  transition: background-position .3s linear;
+}
+.button-left:hover {
+  background-position:100%;
+}
+.button-left:hover .button-left__arrow-wrapper {
+  color: white;
+}
+.button-left:hover .button-left__text-wrapper {
+  color: $AlmostBlack;
+}
+.button-left__text-wrapper {
+  width: 58%;
+  color: white;
+  text-align:leftx²;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.button-left__arrow-wrapper {
+  text-align: center;
+  padding: 1rem;
+  width: 22%;
+  font-size: 1.5rem;
+}
