@@ -1,28 +1,28 @@
-.headingXL {
+@mixin headingXL {
 	@include bsdb;
 	@include f-size-l-height(5.33rem, 4.88rem);
 }
-.headingL {
+@mixin headingL {
 	@include bsdb;
 	@include f-size-l-height(3.88rem, 3.88rem);
 }
 
-.headingM {
+@mixin headingM {
 	@include bsdb;
 	@include f-size-l-height(3.33rem, 2.77rem);
 }
 
-.headingS {
+@mixin headingS {
 	@include bsdb;
 	@include f-size-l-height(2rem, 2rem);
 }
 
-.bodyM {
+@mixin bodyM {
 	@include outfit;
 	@include f-size-l-height(1.22rem, 1.77rem);
 }
 
-.bodyS {
+@mixin bodyS {
 	@include outfit;
 	@include f-size-l-height(1rem, 1.55rem);
 }

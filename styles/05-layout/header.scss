@@ -1,0 +1,35 @@
+.header-component {
+	position: relative;
+	background: url("../assets/mobile/image-hero@2x.jpg") no-repeat;
+	background-size: 100%;
+	padding: 70% 1rem 1rem ;
+}
+
+@media only screen and (min-width: 750px) {
+	.header-component{
+	background: url("../assets/tablet/image-hero@2x.jpg") no-repeat;
+	background-size: contain;
+	height: 700px;
+	padding-top: 40%;
+	padding-left: 60%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.header-component {
+		background-image: url("../assets/desktop/image-hero@2x.jpg"), linear-gradient(90deg, black 0%,
+			black 50%,
+			white 50%,
+			white 100%);
+		background-position: 50%, left;
+		background-size: contain, contain;
+		height: auto;
+		padding: 23% 11% 40% 11%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.cta {
+		width: 30%;
+		margin-left: 35%;
+	}
+}
