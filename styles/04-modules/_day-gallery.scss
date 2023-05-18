@@ -1,0 +1,27 @@
+.day-gallery__description {
+	margin: 1.8rem 0;
+}
+.day-title {
+	@include headingM;
+	text-transform: uppercase;
+}
+.day-text {
+	@include bodyS;
+	margin: 1.22rem 0;
+}
+
+@media only screen and (min-width: 750px) {
+	.day-gallery {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.day-gallery__description {
+		width: 45%;
+		margin-right: 4rem;
+	}
+	.day-gallery__img {
+		width: 40%;
+	}
+}
