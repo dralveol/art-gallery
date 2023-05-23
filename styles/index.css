@@ -305,5 +305,44 @@ table {
     padding: 14rem 5rem;
   }
 }
+.footer {
+  background-color: black;
+  padding: 2.47rem 1.77rem;
+}
+
+.footer__description {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  line-height: 1.55rem;
+  color: hsl(0deg, 0%, 100%);
+  margin: 2.11rem 0;
+}
+
+.icons {
+  margin-right: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.icons:hover {
+  fill: hsl(24deg, 56%, 63%);
+}
+
+@media only screen and (min-width: 750px) {
+  .footer {
+    padding: 3.11rem 2.16rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__description {
+    margin: 0;
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding: 4.44rem 9.16rem;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
