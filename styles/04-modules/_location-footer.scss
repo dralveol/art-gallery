@@ -1,0 +1,11 @@
+.location-footer {
+	&__description {
+		margin: 2rem 0;
+		@include bodyS;
+	}
+	&__social-icons {
+		.icons {
+			color: black;
+		}
+	}
+}
